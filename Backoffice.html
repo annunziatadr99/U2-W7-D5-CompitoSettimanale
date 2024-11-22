@@ -31,7 +31,7 @@
                 <h1 class="display-4 my-4 d-inline-block">Backoffice - Inserisci il Prodotto</h1>
                 <h4 id="subtitle" class="display-6 d-inline-block"></h4>
 
-                <form>
+                <form id="form">
                     <div class="mb-3">
                         <label for="name" class="form-label">Nome Prodotto:</label>
                         <input type="text" class="form-control" id="name" placeholder="Inserisci nome Prodotto" required>
@@ -55,7 +55,7 @@
                     </div>
 
                     <button type="submit" id="submitBtn" class="btn btn-success">Crea</button>
-                    <button type="reset" class="btn btn-warning">Reset</button>
+                    <button type="reset" id="reset" class="btn btn-warning d-none">Reset</button>
                     <button id="deleteBtn" type="button" class="btn btn-danger d-none">Elimina</button>
                 </form>
 
